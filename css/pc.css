@@ -1,0 +1,95 @@
+.box-consainer{
+  max-width: 1920px;
+  margin: auto;
+  background: #fff;
+}
+/* 导航 */
+nav{
+  height: 154px;
+  width: 100%;
+  background: #c51301;
+  display:flex;
+  align-items:center;
+  flex-flow: row nowrap;
+  overflow: hidden;
+}
+nav .loog{
+  flex:0 0 417px;
+  height: 154px;
+  text-align: center;
+  border: 1px solid hsla(0,0%,90%,0);
+  box-sizing: border-box;
+}
+nav .loog img{
+  display: inline-block;
+  vertical-align: middle;
+}
+nav .nav-text{
+  flex: 1 0 auto;
+}
+nav .nav-text ul{
+  display: flex;
+}
+nav .nav-text li{
+  flex:0 1 192px;
+  height: 154px;
+  display:flex;
+  align-items: center;
+}
+nav .nav-text .text-cookie{
+  display: block;
+  height: 114px;
+  width: 100%;
+}
+nav .nav-text .text-first{
+  height: 96px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-left: 1px solid #b01505;
+}
+nav .nav-text .text-first p{
+    display: block;
+    color: #fff;
+    width: 20px;
+    line-height: 24px;
+    font-size: 20px;
+}
+nav .nav-text .text-first span{
+  display: block;
+  color: #eb8989;
+  width: 18px;
+  line-height: 20px;
+  font-size: 18px;
+  padding-top:3px;
+  box-sizing: border-box;
+  writing-mode:vertical-rl;
+  writing-mode: tb-rl;
+}
+nav .nav-text .text-last{
+  height: 19px;
+  line-height: 19px;
+  width: 100%;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  margin: -2px 0 0 -2px;
+}
+.nav-button{
+  display: none;
+}
+/* bnaner */
+.banner{
+  width: 100%;
+}
+.swiper-container {
+    width: 100%;
+    height: 500px;
+}
+.swiper-container img{
+  width: 100%;
+  height: auto
+}
+.consainer{
+  font-size: 20px;
+}

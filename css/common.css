@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration:none ;
+  list-style: none;
+  color: #434343;
+}
+p,h1,h2,h3,h4,h5,h6{font-weight: normal;font-style: normal}
+input,textarea,select,option {outline: none;}
+body{
+  font-family: SourceHanSansCN-Normal;
+  background: #ccc;
+}
+.float-clear:after{
+  content: '';
+  display: block;
+  clear: both;
+  height:0;
+  overflow:hidden;
+  visibility:hidden;
+}
+.float-clear{
+  zoom:1;
+}
+.my-bullet{
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  border-radius: 100%;
+  opacity: 0.5;
+  text-align: center;
+  display: table;
+  margin: 5px;
+}
+.my-bullet::after{
+  content: "";
+  width: 10px;
+  height: 10px;
+  border: 1px solid #c31000;
+  display: table-cell;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.my-bullet-active{
+  opacity: 1;
+  background: #c31000;
+}
