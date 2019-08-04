@@ -11,19 +11,21 @@ nav{
   display:flex;
   align-items:center;
   flex-flow: row nowrap;
-  overflow: hidden;
+  overflow-x: : hidden;
 }
 nav .loog{
   flex:0 0 417px;
   height: 154px;
   text-align: center;
-  border: 1px solid hsla(0,0%,90%,0);
+  /* border: 1px solid hsla(0,0%,90%,0); */
   box-sizing: border-box;
+  display: flex;
+  align-items: center;
 }
-nav .loog img{
+/* nav .loog img{
   display: inline-block;
   vertical-align: middle;
-}
+} */
 nav .nav-text{
   flex: 1 0 auto;
 }
@@ -81,10 +83,11 @@ nav .nav-text .text-last{
 /* bnaner */
 .banner{
   width: 100%;
+  height: 500px;
 }
 .swiper-container {
     width: 100%;
-    height: 500px;
+    height: 100%;
 }
 .swiper-container img{
   width: 100%;
