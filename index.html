@@ -133,7 +133,8 @@
        $(window).resize(function() {
         if($(document).width()>768){
           let w =$(".swiper-container img").height();
-          $('.swiper-container').height(w)
+          $('.swiper-container').height(w);
+          mySwiper?mySwiper.init():'';
         }
 
       }).resize();
@@ -150,6 +151,8 @@
           stopOnLastSlide: false,
           disableOnInteraction: false,
           },
+        observer: true,//修改swiper自己或子元素时，自动初始化swiper
+          observeParents: true,//修改swiper的父元素时，自动初始化swiper
          // 如果需要分页器
          pagination: {
            el: '.swiper-pagination',
